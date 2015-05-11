@@ -1,7 +1,7 @@
 {
   "name": "pointillist",
   "version": "1.0.0",
-  "description": "Simple tool to fill in an html delement with colored dots",
+  "description": "A humble library for pop art illustration with pure CSS",
   "main": "index.js",
   "scripts": {
     "start": "beefy index.js -o bundle.js --live",
