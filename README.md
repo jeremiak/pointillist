@@ -1,6 +1,6 @@
 # Pointillist
 
-A humble library to color in HTML elements in the pop art style of [Roy Lichtenstein](https://en.wikipedia.org/wiki/Roy_Lichtenstein).
+A humble library for pop art illustration with pure CSS, inspired by [Roy Lichtenstein](https://en.wikipedia.org/wiki/Roy_Lichtenstein).
 
 Here's a small [demo](https://jeremiak.github.io/pointillist)
 
