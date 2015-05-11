@@ -68,6 +68,6 @@ function paintDots(selector, dotSize, dotColor) {
   target.appendChild(canvas);
 }
 
-window = window || {};
+var window = window || {};
 window.pointillist = paintDots;
 module.exports = paintDots;
