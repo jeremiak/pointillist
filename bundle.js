@@ -69,8 +69,9 @@ function paintDots(selector, dotSize, dotColor) {
   target.appendChild(canvas);
 }
 
-var window = window || {};
-window.pointillist = paintDots;
+if (typeof window !== 'undefined') {
+  window.pointillist = paintDots;
+}
 module.exports = paintDots;
 
 },{}]},{},[1]);
