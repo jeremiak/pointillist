@@ -3,9 +3,29 @@
   <head>
     <style type="text/css">
       body {
+        font-family: sans-serif;
+      }
+      .title {
+        text-align: center;
+      }
+      .demos {
         display: flex;
         align-items: center;
         justify-content: center;
+        padding-top: 50px;
+      } 
+      .demo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-basis: 40%;
+      }
+      .code {
+        background-color: LightGoldenrodYellow;
+        font-family: monospace;
+        margin-top: 100px;
+        padding: 30px;
       }
       .circle {
         width: 200px;
@@ -18,11 +38,38 @@
         min-height: 200px;
         border: 1px solid black;
       }
+      footer {
+        padding: 30px;
+        text-align: center;
+        font-size: .6em;
+      }
+      footer h1 {
+        font-weight: 400;
+      }
     </style>
   </head>
   <body>
-    <div class="circle"></div>    
-    <div class="square"></div>
+    <div class="title">
+      <h1>Pointillist</h1>
+      <h2>A humble library for pop art illustration with pure CSS</h2>
+    </div>
+    <div class="demos">
+      <div class="demo">
+        <div class="circle"></div>    
+        <div class="code">
+           pointillist('.circle', '5px', 'HotPink');
+        </div>
+      </div>
+      <div class="demo">
+        <div class="square"></div>
+        <div class="code">
+           pointillist('.square', '7px', 'RebeccaPurple');
+        </div>
+      </div>
+    </div>
+    <footer>
+      <h1>Constructed quickly in 2015 by <a href="https://github.com/jeremiak">@jeremiak</a></h1>
+    </footer>
     <script src="bundle.js"></script>
     <script>
       pointillist('.circle', '5px', 'HotPink');
