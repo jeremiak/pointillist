@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <style type="text/css">
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .circle {
+        width: 200px;
+        min-height: 200px;
+        border-radius: 200px;
+        border: 1px solid black;
+      }
+      .square {
+        width: 200px;
+        min-height: 200px;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="circle"></div>    
+    <div class="square"></div>
+    <script src="bundle.js"></script>
+    <script>
+      pointillist('.circle', '5px', 'HotPink');
+      pointillist('.square', '7px', 'RebeccaPurple');
+    </script>
+  </body>
+</html>
